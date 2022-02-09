@@ -7,6 +7,7 @@ public class RelatorioDeVendasVo {
 	private String nomeProduto;
 	private Long quantidadeVendida;
 	private LocalDate ultimaVenda;
+	
 	public RelatorioDeVendasVo(String nomeProduto, Long quantidadeVendida, LocalDate ultimaVenda) {
 		super();
 		this.nomeProduto = nomeProduto;

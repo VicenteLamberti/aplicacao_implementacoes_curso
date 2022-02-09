@@ -26,7 +26,7 @@ public class PedidoDao {
 	}
 	
 	public List<RelatorioDeVendasVo> relatorioDeVendas(){
-		String jpql = "SELECT new br.com.itf.vicente.vo.RelatorioDeVendasVo("
+		String jpql = "SELECT new br.com.itf.vicente.application.vo.RelatorioDeVendasVo("
 				+ "produto.nome, "
 				+ "SUM(item.quantidade), "
 				+ "MAX(pedido.dataCadastro)) " 
