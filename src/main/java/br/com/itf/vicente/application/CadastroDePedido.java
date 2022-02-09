@@ -5,17 +5,17 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import br.com.itf.vicente.dao.CategoriaDao;
-import br.com.itf.vicente.dao.ClienteDao;
-import br.com.itf.vicente.dao.PedidoDao;
-import br.com.itf.vicente.dao.ProdutoDao;
-import br.com.itf.vicente.model.Categoria;
-import br.com.itf.vicente.model.Cliente;
-import br.com.itf.vicente.model.ItemPedido;
-import br.com.itf.vicente.model.Pedido;
-import br.com.itf.vicente.model.Produto;
-import br.com.itf.vicente.util.JPAUtil;
-import br.com.itf.vicente.vo.RelatorioDeVendasVo;
+import br.com.itf.vicente.application.dao.CategoriaDao;
+import br.com.itf.vicente.application.dao.ClienteDao;
+import br.com.itf.vicente.application.dao.PedidoDao;
+import br.com.itf.vicente.application.dao.ProdutoDao;
+import br.com.itf.vicente.application.model.Categoria;
+import br.com.itf.vicente.application.model.Cliente;
+import br.com.itf.vicente.application.model.ItemPedido;
+import br.com.itf.vicente.application.model.Pedido;
+import br.com.itf.vicente.application.model.Produto;
+import br.com.itf.vicente.application.util.JPAUtil;
+import br.com.itf.vicente.application.vo.RelatorioDeVendasVo;
 
 public class CadastroDePedido {
 

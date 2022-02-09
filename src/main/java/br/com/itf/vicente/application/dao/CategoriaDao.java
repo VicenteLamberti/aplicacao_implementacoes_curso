@@ -1,8 +1,8 @@
-package br.com.itf.vicente.dao;
+package br.com.itf.vicente.application.dao;
 
 import javax.persistence.EntityManager;
 
-import br.com.itf.vicente.model.Categoria;
+import br.com.itf.vicente.application.model.Categoria;
 
 public class CategoriaDao {
 	private EntityManager em;

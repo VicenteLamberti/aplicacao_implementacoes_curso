@@ -3,11 +3,12 @@ package br.com.itf.vicente.application;
 import java.math.BigDecimal;
 
 import javax.persistence.EntityManager;
-import br.com.itf.vicente.dao.CategoriaDao;
-import br.com.itf.vicente.dao.ProdutoDao;
-import br.com.itf.vicente.model.Categoria;
-import br.com.itf.vicente.model.Produto;
-import br.com.itf.vicente.util.JPAUtil;
+
+import br.com.itf.vicente.application.dao.CategoriaDao;
+import br.com.itf.vicente.application.dao.ProdutoDao;
+import br.com.itf.vicente.application.model.Categoria;
+import br.com.itf.vicente.application.model.Produto;
+import br.com.itf.vicente.application.util.JPAUtil;
 
 public class Application {
 

@@ -1,12 +1,12 @@
-package br.com.itf.vicente.dao;
+package br.com.itf.vicente.application.dao;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import br.com.itf.vicente.model.Pedido;
-import br.com.itf.vicente.vo.RelatorioDeVendasVo;
+import br.com.itf.vicente.application.model.Pedido;
+import br.com.itf.vicente.application.vo.RelatorioDeVendasVo;
 
 public class PedidoDao {
 	private EntityManager em;

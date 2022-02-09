@@ -1,4 +1,4 @@
-package br.com.itf.vicente.vo;
+package br.com.itf.vicente.application.vo;
 
 import java.time.LocalDate;
 

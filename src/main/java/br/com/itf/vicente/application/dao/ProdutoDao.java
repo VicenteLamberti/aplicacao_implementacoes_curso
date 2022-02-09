@@ -1,4 +1,4 @@
-package br.com.itf.vicente.dao;
+package br.com.itf.vicente.application.dao;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -11,7 +11,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import br.com.itf.vicente.model.Produto;
+import br.com.itf.vicente.application.model.Produto;
 
 public class ProdutoDao {
 	private EntityManager em;

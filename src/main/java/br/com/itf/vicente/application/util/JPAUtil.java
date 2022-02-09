@@ -1,4 +1,4 @@
-package br.com.itf.vicente.util;
+package br.com.itf.vicente.application.util;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

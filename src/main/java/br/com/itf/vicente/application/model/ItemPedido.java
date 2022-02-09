@@ -1,4 +1,4 @@
-package br.com.itf.vicente.model;
+package br.com.itf.vicente.application.model;
 
 import java.math.BigDecimal;
 

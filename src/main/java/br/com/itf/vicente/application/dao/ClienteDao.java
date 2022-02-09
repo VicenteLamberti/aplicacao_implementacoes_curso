@@ -1,8 +1,8 @@
-package br.com.itf.vicente.dao;
+package br.com.itf.vicente.application.dao;
 
 import javax.persistence.EntityManager;
 
-import br.com.itf.vicente.model.Cliente;
+import br.com.itf.vicente.application.model.Cliente;
 
 public class ClienteDao {
 	private EntityManager em;

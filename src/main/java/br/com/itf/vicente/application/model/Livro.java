@@ -1,4 +1,4 @@
-package br.com.itf.vicente.model;
+package br.com.itf.vicente.application.model;
 
 public class Livro extends Produto{
 

@@ -1,4 +1,4 @@
-package br.com.itf.vicente.model;
+package br.com.itf.vicente.application.model;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
