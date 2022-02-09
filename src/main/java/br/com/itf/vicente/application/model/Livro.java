@@ -1,5 +1,8 @@
 package br.com.itf.vicente.application.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Livro extends Produto{
 
 	
